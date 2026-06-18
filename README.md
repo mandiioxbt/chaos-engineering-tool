@@ -1,17 +1,16 @@
 # Chaos Engineering Tool
 
-Chaos engineering: network partitions, CPU stress, pod killing.
+Chaos engineering framework: network partitions, CPU stress, pod killing for resilience testing.
 
 ## Experiments
 - Network latency injection
-- CPU/memory stress
+- CPU/memory stress testing
 - Pod killing and node drain
 - DNS failure simulation
 
 ## Safety
-- Blast radius limits
-- Automatic rollback
-- Steady-state verification
+- Blast radius limits (max 10% of nodes)
+- Automatic rollback after experiment
+- Steady-state verification pre/post
 
-## License
-MIT
+## License: MIT
